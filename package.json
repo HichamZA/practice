@@ -1,15 +1,20 @@
 {
-  "name": "practice",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HichamZA/practice.git"
-  },
-  "author": "Hicham ZA",
-  "dependencies": {
-    "serve": "9.4.0"
-  },
-  "scripts": {
-    "serve": "serve src"
-  }
+	"name": "practice",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HichamZA/practice.git"
+	},
+	"author": "Hicham ZA",
+	"dependencies": {
+		"axios": "0.18.0"
+	},
+	"devDependencies": {
+		"serve": "9.4.0",
+		"live-server": "1.2.0"
+	},
+	"scripts": {
+		"serve": "serve src",
+		"live-server": "live-server src"
+	}
 }
